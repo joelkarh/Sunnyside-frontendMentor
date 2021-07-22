@@ -35,7 +35,12 @@ const Footer = () => {
                 <img src={pinterest} alt="socials pinterest"/>
             </li>
         </ul>
-    </footer> </>
+        <small class="text-center block">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Joël Karhamba</a>.
+  </small>
+    </footer>
+     </>
     )
 }
 
