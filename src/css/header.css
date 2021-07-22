@@ -1,0 +1,29 @@
+/* Navbar */
+.navbar {
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+  }
+  /* Showcase */
+.showcase {
+    background: url("../assets/image-header.jpg") no-repeat center/cover;
+    height: 512px;
+  }
+.showcase .overlay {
+    height: 512px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px){
+    .navbar {
+        right: 0;
+        top: 0;
+    }
+    .showcase{
+        background:url(../assets/desktop/image-header.jpg) no-repeat center/cover ;
+        height: 512px;
+    }
+}

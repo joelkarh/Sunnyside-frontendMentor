@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style: none;
+}
+p{
+  line-height: 1.6;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: "Fraunces", sans-serif;
+  color: var(--Darkblue);
+}
+p{
+  line-height: 1.6;
+  font-size:18px;
+  color: var(--Darkblue);
+}
+
+body {
+  font-family: "Barlow",  sans-serif;
+}
+img{
+  max-width: 100%;
+}
+
+/*primary*/
+:root{
+  --Red:  hsl(7, 99%, 70%);
+  --Yellow: hsl(51, 100%, 49%);
+  --Darkcyan: hsl(167, 40%, 24%);
+  --footer: hsl(162, 24%, 19%);
+  --Darkblue: hsl(198, 62%, 26%);
+  --DarkmodCyan: hsl(168, 34%, 41%);
+  --Verydarkblue: hsl(212, 27%, 19%);
+  --Verygrayishblue: hsl(213, 9%, 39%);
+  --Darkgrayishblue: hsl(232, 10%, 55%);
+  --Grayishblue: hsl(210, 4%, 67%);
+  --White: hsl(0, 0%, 100%);
+}
+/* neutral */
+
+.btn-transform{
+  text-transform: uppercase;
+  color: var(--Darkblue);
+  border-bottom:6px solid var(--Yellow);
+  font-family:"Fraunces", sans-serif;
+}
+.btn-standout{
+border-bottom: 6px solid var(--Red) !important;
+}
+
+/* Testimonials */
+.testimonials-header{
+  color: var(--Darkgrayishblue);
+  
+}
+.btn-cta {
+  font-family: "Fraunces", sans-serif;
+  background-color: var(--White);
+  color: var(--Verydarkblue);
+  border: 2px solid var(--White);
+  padding: 10px;
+  border-radius: 30px;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.btn-cta:hover {
+  cursor: pointer;
+  background-color: var(--Darkblue);
+  color: var(--White);
+  border: 2px solid var(--Darkblue);
+}
