@@ -18,7 +18,7 @@ const GraphicDesktop= () => {
                 ))}
             </section>
         </>
-    )
+    ) 
 }
 
 export default GraphicDesktop
